@@ -84,7 +84,3 @@ Boxplot reveals variation in ratings between different app categories
 ---
 
 > 📌 *Note: Dataset and source code are excluded to maintain project originality.*
-
----
-
-Do you also want me to prepare **Part 2 README** so it continues smoothly from here?
