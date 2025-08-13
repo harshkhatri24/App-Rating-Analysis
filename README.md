@@ -1,4 +1,4 @@
-📱 Google Play Store App Rating Analysis
+##📱 **Google Play Store App Rating Analysis**
 
 📌 Project Overview
 - This project focuses on analyzing Google Play Store data to understand the factors influencing app ratings.
