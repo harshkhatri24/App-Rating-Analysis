@@ -1,4 +1,4 @@
-# 📱 Google Play Store App Rating Analysis – Part 1 (EDA & Data Cleaning)
+# 📱 Google Play Store App Rating Analysis
 
 ## 📌 Project Overview
 - This project focuses on analyzing Google Play Store data to understand the factors influencing **app ratings**.
@@ -24,12 +24,12 @@
 ### 1. 📋 Data Cleaning & Preprocessing
 
 * **Loading Dataset**
-  ![Data Loading](screenshots/data_loading.jpg)
+  ![Data Loading](app_rating_screenshots/data_loading.jpg)
 
 * Checked for **null values** and dropped incomplete rows
-  ![Handling Missing Data](screenshots/handling_missing_data.jpg)
-  ![Dropping Null Values](screenshots/dropping_null_values.jpg)
-  ![Dropping Null Values 2](screenshots/dropping_null_values1.jpg)
+  ![Handling Missing Data](app_rating_screenshots/handling_missing_data.jpg)
+  ![Dropping Null Values](app_rating_screenshots/dropping_null_values.jpg)
+  ![Dropping Null Values 2](app_rating_screenshots/dropping_null_values1.jpg)
 
 * Fixed **data types** (e.g., reviews, installs, prices)
 
@@ -49,22 +49,22 @@
 #### ⭐ Ratings Distribution
 
 Most apps tend to have ratings above 4
-![Ratings Distribution](screenshots/ratings_distribution.jpg)
+![Ratings Distribution](app_rating_screenshots/ratings_distribution.jpg)
 
 #### 📝 Reviews Outlier Analysis
 
 Detected a small number of apps with extremely high reviews, skewing the distribution
-![Reviews Boxplot](screenshots/reviews_outlier_boxplot.jpg)
+![Reviews Boxplot](app_rating_screenshots/reviews_outlier_boxplot.jpg)
 
 #### 💲 Ratings vs Price
 
 Scatterplot shows most high-rated apps are either free or moderately priced
-![Ratings vs Price](screenshots/ratings_vs_price_scatterplot.jpg)
+![Ratings vs Price](app_rating_screenshots/ratings_vs_price_scatterplot.jpg)
 
 #### 📂 Ratings vs Category
 
 Boxplot reveals variation in ratings between different app categories
-![Ratings vs Category](screenshots/ratings_vs_category_boxplot.jpg)
+![Ratings vs Category](app_rating_screenshots/ratings_vs_category_boxplot.jpg)
 
 ---
 
